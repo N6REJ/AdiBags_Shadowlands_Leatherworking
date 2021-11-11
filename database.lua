@@ -26,16 +26,6 @@ db.Filters = {
             [177279] = true -- Gaunt Sinew
         }
     },
-    ["Cloth"] = {
-        uiName = "Shadowlands Tailoring",
-        uiDesc = "Reagents for tailoring in Shadowlands",
-        title = "Cloth",
-        items = {
-            [172439] = true, -- Enchanted Lightless Silk
-            [173202] = true, -- Shrouded Cloth
-            [173204] = true -- Lightless Silk
-        }
-    },
     ["Vendor_Reagents"] = {
         uiName = "Shadowlands Vendor Reagents",
         uiDesc = "Reagents from vendors used in Shadowlands",
@@ -62,9 +52,9 @@ db.Filters = {
             [185960] = true -- Vestige of Origins
         }
     },
-    ["Special_Reagents"] = {
+    ["Zone_Reagents"] = {
         uiName = "Special reagents",
-        uiDesc = "Reagents from zones in Shadowlands",
+        uiDesc = "Special reagents from zones in Shadowlands",
         title = "Zone Reagents",
         items = {
             -- ID    = true,    --Item name
