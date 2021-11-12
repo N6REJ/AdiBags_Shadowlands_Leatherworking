@@ -27,9 +27,9 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Vendor Reagents",
-        uiDesc = "Reagents from vendors used in Shadowlands",
-        title = "Vendor Reagents",
+        uiName = "Shadowlands Leather Reagents",
+        uiDesc = "Leather reagents from vendors used in Shadowlands",
+        title = "leather Reagents",
         items = {
             -- ID    = true,    --Item name
             [177062] = true, -- Penumbra Thread
