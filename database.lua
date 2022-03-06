@@ -49,7 +49,11 @@ db.Filters = {
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
             [183942] = true, -- Novice Mark II
-            [185960] = true -- Vestige of Origins
+            [185960] = true, -- Vestige of Origins
+            [359702] = true, -- Vestige of the Eternal
+            [187707] = true, -- Progenitor Essentia
+            [359669] = true, -- Crafter's Mark of the First Ones
+            [359662] = true -- Crafter's Mark IV
         }
     },
     ["Zone_Reagents"] = {
