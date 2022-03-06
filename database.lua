@@ -24,6 +24,7 @@ db.Filters = {
             [172097] = true, -- Heavy Callous Hide
             [172438] = true, -- Enchanted Heavy Callous Hide
             [177279] = true -- Gaunt Sinew
+
         }
     },
     ["Vendor_Reagents"] = {
@@ -65,8 +66,10 @@ db.Filters = {
             [172331] = true, -- Sinful Leather
             [172332] = true, -- Necrotic Leather
             [172330] = true, -- Unseelie Leather
-            [172333] = true -- Purified Leather
-        }
+            [172333] = true, -- Purified Leather
+            [187701] = true  -- Protogenic Pelt
+
+}
     }
 }
 
