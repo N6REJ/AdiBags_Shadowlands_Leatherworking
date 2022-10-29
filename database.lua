@@ -1,20 +1,24 @@
--- AdiBags_Shadowlands_Leatherworking - Database
+-- AdiBags_Bears_Leatherworking - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
-local addonName, addonTable, addon = ...
+local addonName, addonTable = ...;
+
+-- Get locals namse
+local L = addonTable.locales;
+local Expansion = L["SHADOWLANDS"]
 
 -- Create addon table
 local db = {}
 
-db.name = "Shadowlands Leatherworking"
-db.desc = "Leatherworking reagents for Shadowlands"
+db.name = "Bears Leatherworking"
+db.desc = "Leatherworking reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Leather"] = {
-        uiName = "Shadowlands Leatherworking",
-        uiDesc = "Reagents for Leatherworking in Shadowlands",
+        uiName = "Bears Leatherworking",
+        uiDesc = "Reagents for Leatherworking in " .. Expansion,
         title = "Leather",
         items = {
             [172089] = true, -- Desolate Leather
@@ -28,8 +32,8 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Leather Reagents",
-        uiDesc = "Leather reagents from vendors used in Shadowlands",
+        uiName = "Bears Leather Reagents",
+        uiDesc = "Leather reagents from vendors used in " .. Expansion,
         title = "leather Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -40,8 +44,8 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Shadowlands crafted reagents",
-        uiDesc = "Reagents made by crafting in Shadowlands",
+        uiName = "Bears crafted reagents",
+        uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -59,7 +63,7 @@ db.Filters = {
     },
     ["Zone_Reagents"] = {
         uiName = "Special reagents",
-        uiDesc = "Special reagents from zones in Shadowlands",
+        uiDesc = "Special reagents from zones in " .. Expansion,
         title = "Zone Reagents",
         items = {
             -- ID    = true,    --Item name
