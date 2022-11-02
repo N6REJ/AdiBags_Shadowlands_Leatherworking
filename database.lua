@@ -1,12 +1,12 @@
--- AdiBags_Bears_Leatherworking - Database
+-- AdiBags Bears Leatherworking - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
 local addonName, addonTable = ...;
 
 -- Get locals names
-local L = addonTable.locales;
-local Expansion = L["Shadowlands"]
+local E = addonTable.expansion;
+local Expansion = E["Shadowlands"]
 
 -- Create addon table
 local db = {}
