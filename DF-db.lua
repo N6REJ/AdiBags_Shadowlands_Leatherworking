@@ -97,27 +97,6 @@ db.Filters = {
 			[191519] = true, -- Writhefire Oil 3
 		}
 	},
-	["Elemental"] = {
-		uiName = Expansion .. " Elemental",
-		uiDesc = "Elemental reagents found in " .. Expansion,
-		title = "Elemental",
-		items = {
-			-- ID  = true,		--Item name
-			[190326] = true, -- Rousing Air
-			[190315] = true, -- Rousing Earth
-			[190320] = true, -- Rousing Fire
-			[190451] = true, -- Rousing Ire
-			[190328] = true, -- Rousing Frost
-			[190322] = true, -- Rousing Order
-			[190330] = true, -- Rousing Decay
-			[190331] = true, -- Awakened Decay
-			[190321] = true, -- Awakened Fire
-			[190327] = true, -- Awakened Air
-			[190329] = true, -- Awakened Frost
-			[190316] = true, -- Awakened Fire
-			[190324] = true, -- Awakened Order
-		}
-	},
 	["Fish_Reagents"] = {
 		uiName = Expansion .. " Leatherworking Fish Reagents",
 		uiDesc = "Leatherworking Fish reagents from vendors used in " .. Expansion,
@@ -125,31 +104,6 @@ db.Filters = {
 		items = {
 			-- ID    = true,    --Item name
 			[201400] = true, -- Aquatic Maw
-		}
-	},
-	["Vendor_Reagents"] = {
-		uiName = Expansion .. " Leatherworking Reagents",
-		uiDesc = "Leatherworking reagents from vendors used in " .. Expansion,
-		title = "Vendor",
-		items = {
-			-- ID    = true,    --Item name
-			[198615] = true, -- Pentagold Seal
-		}
-	},
-	["Zone_Reagents"] = {
-		uiName = "Special Reagents",
-		uiDesc = "Special reagents from " .. Expansion,
-		title = "DF Mats",
-		items = {
-			-- ID  = true,		--Item name
-			[190454] = true, -- Primal Chaos
-			[202122] = true, -- Primal Chaos Cluster
-			[200686] = true, -- Primal Focus
-			[190456] = true, -- Artisan's Mettle
-			[201405] = true, -- Tuft of Primal Wool -- Used by many professions
-			[201406] = true, -- Glowing Titan Orb   -- Used by many professions
-			[190453] = true, -- Spark of Ingenuity
-			[199197] = true, -- Bottled Essence
 		}
 	}
 }
