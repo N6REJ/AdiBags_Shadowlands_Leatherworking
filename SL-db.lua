@@ -11,7 +11,7 @@ local Expansion = E["Shadowlands"]
 -- Create addon table
 local db = {}
 
-db.name = Expansion .. " Leatherworking"
+db.name = "Bears " .. Expansion .. " Leatherworking"
 db.desc = "Leatherworking reagents for " .. Expansion
 
 -- Filter info
