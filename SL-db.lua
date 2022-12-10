@@ -17,7 +17,7 @@ db.desc = "Leatherworking reagents for " .. Expansion
 -- Filter info
 db.Filters = {
 	["Leather"] = {
-		uiName = Expansion .. " Leatherworking",
+		uiName = "Bears " .. Expansion .. " Leatherworking",
 		uiDesc = "Reagents for Leatherworking in " .. Expansion,
 		title = "Leather",
 		items = {
@@ -32,7 +32,7 @@ db.Filters = {
 		}
 	},
 	["Vendor_Reagents"] = {
-		uiName = Expansion .. " Leather Reagents",
+		uiName = "Bears " .. Expansion .. " Leather Reagents",
 		uiDesc = "Leather reagents from vendors used in " .. Expansion,
 		title = "leather Reagents",
 		items = {
@@ -44,7 +44,7 @@ db.Filters = {
 		}
 	},
 	["Crafted_Reagents"] = {
-		uiName = Expansion .. " crafted reagents",
+		uiName = "Bears " .. Expansion .. " crafted reagents",
 		uiDesc = "Reagents made by crafting in " .. Expansion,
 		title = "Crafted Reagents",
 		items = {
