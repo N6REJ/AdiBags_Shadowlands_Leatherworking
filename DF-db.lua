@@ -26,7 +26,6 @@ db.Filters = {
 			[193254] = true, -- Rockfang Leather
 			[193261] = true, -- Bite-Sized Morsel
 			[193262] = true, -- Exceptional Morsel
-			[193360] = true, -- Centaur's Trophy Necklace
 			[193253] = true, -- Cacophonous Thunderscale
 			[201399] = true, -- Primal Bear Spine
 			[201404] = true, -- Tallstrider Sinew

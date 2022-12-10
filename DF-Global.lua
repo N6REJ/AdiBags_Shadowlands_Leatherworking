@@ -1,8 +1,4 @@
-<<<<<<< HEAD
--- AdiBags zone items - Database
-=======
 -- AdiBags Global items - Database
->>>>>>> origin/main
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
