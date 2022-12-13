@@ -90,10 +90,6 @@ db.Filters = {
 			[193468] = true, -- Fang Adornments 1
 			[193551] = true, -- Fang Adornments 2
 			[193554] = true, -- Fang Adornments 3
-			[191529] = true, -- Illustrious Insight
-			[191517] = true, -- Writhefire Oil 1
-			[191518] = true, -- Writhefire Oil 2
-			[191519] = true, -- Writhefire Oil 3
 		}
 	},
 	["Fish_Reagents"] = {
