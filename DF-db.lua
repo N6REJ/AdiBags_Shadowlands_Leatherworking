@@ -21,7 +21,8 @@ db.Filters = {
 		uiName = "Bears " .. Expansion .. " Leather",
 		uiDesc = "Leather found in " .. Expansion,
 		title = "Leather",
-		items = {-- ID,	--Item name
+		items = {
+			-- ID,	--Item name
 			[193252] = true, -- Salamanther Scales
 			[193254] = true, -- Rockfang Leather
 			[193261] = true, -- Bite-Sized Morsel
@@ -37,8 +38,8 @@ db.Filters = {
 			[193259] = true, -- Flawless Proto Dragon Scale
 			[193258] = true, -- Fire-Infused Hide
 			[193216] = true, -- Dense Hide 1
-			[193218] = true, -- Dense Hide 2
-			[193216] = true, -- Dense Hide 3
+			[193217] = true, -- Dense Hide 2
+			[193218] = true, -- Dense Hide 3
 			[193208] = true, -- Resilient Leather 1
 			[193210] = true, -- Resilient Leather 2
 			[193211] = true, -- Resilient Leather 3
@@ -48,7 +49,6 @@ db.Filters = {
 			[193226] = true, -- Stonecrust Hide 1
 			[193227] = true, -- Stonecrust Hide 2
 			[193228] = true, -- Stonecrust Hide 3
-			[193253] = true, -- Cacophonous Thunderscale
 			[193229] = true, -- Mireslush Hide 1
 			[193230] = true, -- Mireslush Hide 2
 			[193231] = true, -- Mireslush Hide 3
@@ -75,7 +75,6 @@ db.Filters = {
 			[193241] = true, -- Drygrate Scales 3
 		}
 	},
-
 	["Crafted_Reagents"] = {
 		uiName = "Bears " .. Expansion .. " Crafted Reagents",
 		uiDesc = "Assorted crafted reagents used in " .. Expansion,
