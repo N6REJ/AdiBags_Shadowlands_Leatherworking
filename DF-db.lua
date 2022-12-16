@@ -90,15 +90,6 @@ db.Filters = {
 			[193551] = true, -- Fang Adornments 2
 			[193554] = true, -- Fang Adornments 3
 		}
-	},
-	["Fish_Reagents"] = {
-		uiName = "Bears " .. Expansion .. " Leatherworking Fish Reagents",
-		uiDesc = "Leatherworking Fish reagents from vendors used in " .. Expansion,
-		title = "Fish",
-		items = {
-			-- ID    = true,    --Item name
-			[201400] = true, -- Aquatic Maw
-		}
 	}
 }
 
