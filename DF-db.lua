@@ -90,6 +90,15 @@ db.Filters = {
 			[193551] = true, -- Fang Adornments 2
 			[193554] = true, -- Fang Adornments 3
 		}
+	},
+	["Artisan"] = {
+		uiName = "Bears " .. Expansion .. " Artisan Leatherworking items",
+		uiDesc = "Artisan items found in " .. Expansion,
+		title = "Artisan",
+		items = {
+			-- ID,	--Item name
+			[203405] = true, -- Pristine Pelt
+		}
 	}
 }
 
