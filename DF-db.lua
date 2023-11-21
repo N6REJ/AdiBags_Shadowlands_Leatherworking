@@ -73,6 +73,7 @@ db.Filters = {
 			[193239] = true, -- Drygrate Scales 1
 			[193240] = true, -- Drygrate Scales 2
 			[193241] = true, -- Drygrate Scales 3
+			[210456] = true, -- Dreaming Antler Fragment
 		}
 	},
 	["Crafted_Reagents"] = {
