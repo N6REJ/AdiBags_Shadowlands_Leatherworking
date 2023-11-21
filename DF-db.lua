@@ -99,6 +99,17 @@ db.Filters = {
 			-- ID,	--Item name
 			[203405] = true, -- Pristine Pelt
 		}
+	},
+	["Optional_Reagents"] = {
+		uiName = "Bears " .. Expansion .. " Optional Reagents",
+		uiDesc = "Assorted Optional reagents used in " .. Expansion,
+		title = "Optional",
+		items = {
+			-- ID  = true,		--Item name
+			[208187] = true, -- Verdant Conduit 1
+			[208188] = true, -- Verdant Conduit 2
+			[208189] = true, -- Verdant Conduit 3
+		}
 	}
 }
 
