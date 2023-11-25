@@ -110,6 +110,7 @@ db.Filters = {
 			[208187] = true, -- Verdant Conduit 1
 			[208188] = true, -- Verdant Conduit 2
 			[208189] = true, -- Verdant Conduit 3
+			[208212] = true, -- Dreaming Essence
 		}
 	}
 }
